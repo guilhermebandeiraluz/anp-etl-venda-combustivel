@@ -35,4 +35,10 @@ Em um ambiente Linux foi configurado o Jupyter Notebook para o desenvolvimento d
 
 <p></p>  
 Pelo Python foi analisado o conteúdo de cada arquivo e elencado quais dinâmicas seria utilizado para as manipulações de dados para essas transformações foi utilizado a biblioteca Pandas. 
+<p>
+Após as transformações a partir do dataframe final, com as duas tabelas necessárias uma para Derivados de Gasolina e outro para Óleo Diesel
+</p>
+
+Também está disponivel arquivo .py com o script desenvolvido para solucionar a estruturação das informações contidas no arquivo do ANP. 
+
 

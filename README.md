@@ -39,6 +39,5 @@ Pelo Python foi analisado o conteúdo de cada arquivo e elencado quais dinâmica
 Após as transformações a partir do dataframe final, com as duas tabelas necessárias uma para Derivados de Gasolina e outro para Óleo Diesel
 </p>
 
-Também está disponivel arquivo .py com o script desenvolvido para solucionar a estruturação das informações contidas no arquivo do ANP. 
-
+Também está disponivel arquivo .py com o script desenvolvido para solucionar a estruturação das informações contidas no arquivo do ANP.
 

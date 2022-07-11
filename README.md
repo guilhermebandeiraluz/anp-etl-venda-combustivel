@@ -9,6 +9,7 @@ Transformação de dados a partir de uma planilha disponibilizada no site da ANP
 ![stack Overflow](https://raw.githubusercontent.com/raizen-analytics/data-engineering-test/master/images/pivot.png)
 
 A partir desse arquivo é necesario fazer a transformação das tabelas dinamicas contidas no arquivo na seguinte estrutura de dados
+<p></p>
 
 
 | Column     | Type      |
@@ -24,7 +25,14 @@ A partir desse arquivo é necesario fazer a transformação das tabelas dinamica
 ## Desenvolvimento da solução proposta
 
 Em um ambiente Linux foi configurado o Jupyter Notebook para o desenvolvimento do script para transformação/ingestão (A ser definido destino). 
-
 * Utilizado a biblioteca urllib para o Download do arquivo contido na URL.
 * Com o arquivo salvo do diretorio, foi necessario fazer a transformação dele de XLS para XLSX 
-> CMD: os.system(f'''libreoffice --headless --invisible --convert-to xlsx {vArquivo} --outdir {vCaminho}''')
+  - CMD: os.system(f'''libreoffice --headless --invisible --convert-to xlsx {vArquivo} --outdir {vCaminho}''')
+  
+<p></p>
+<p>Tomando como base o arquivo transformado foi realizado o export das tabelas dinâmicas e novos arquivos contendo os dados referente as dinâmicas.
+  ['DPCache_m3', 'DPCache_m3_2', 'DPCache_m3_3', 'DPCache_m3_4', 'DPCache_m3_5', 'DPCache_m3_6']
+
+<p></p>  
+Pelo python foi analisado o conteúdo de cada arquivo e elencado quais dinâmicas seria utilizado para as manipulações de dados. 
+

@@ -41,3 +41,8 @@ Após as transformações a partir do dataframe final, com as duas tabelas neces
 
 Também está disponivel arquivo .py com o script desenvolvido para solucionar a estruturação das informações contidas no arquivo do ANP.
 
+No fluxo ficou nesse formato de consumo das libs:
+urllib   > para download 
+openpyxl > para o Split das abas do excel  
+Pandas   > para as transformações dos dados
+pyarrow  > para definição de ingestão no lake, no caso foi transformado em .parquet 

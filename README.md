@@ -34,5 +34,5 @@ Em um ambiente Linux foi configurado o Jupyter Notebook para o desenvolvimento d
   ['DPCache_m3', 'DPCache_m3_2', 'DPCache_m3_3', 'DPCache_m3_4', 'DPCache_m3_5', 'DPCache_m3_6']
 
 <p></p>  
-Pelo python foi analisado o conteúdo de cada arquivo e elencado quais dinâmicas seria utilizado para as manipulações de dados. 
+Pelo Python foi analisado o conteúdo de cada arquivo e elencado quais dinâmicas seria utilizado para as manipulações de dados para essas transformações foi utilizado a biblioteca Pandas. 
 
